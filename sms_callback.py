@@ -3,7 +3,6 @@
 
 import cgi, cgitb
 import sys
-from gv import sendTxt
 from sendEmail import sendEmail
 
 form = cgi.FieldStorage() 
